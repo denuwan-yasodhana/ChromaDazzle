@@ -8,5 +8,9 @@ This software is developed using C# and Arduino. This allows users to turn on-of
 
 
 
+https://user-images.githubusercontent.com/110303643/194698091-0647203e-773e-41be-a5e1-ecedbe77d6a4.mp4
+
+
+
 
 
