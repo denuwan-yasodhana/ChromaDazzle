@@ -1,4 +1,4 @@
-# led-patterns-controller
+# ChromaDazzle
 
 ## Introduction
 
