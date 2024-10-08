@@ -1,14 +1,54 @@
-# ChromaDazzle
+# 💡 Bulb Control and Light Pattern Software
 
-## Introduction
+### 📋 Overview
 
-This software is developed using C# and Arduino. This allows users to turn on-off a desired bulb, as well as create different types of light patterns, with the help of software, without physically intervening with the device. Here users don't need to find the connected Com Port type separately. They only need to select the relevant Com Port type and Baund Rate. While designing it, it is designed in such a way that the possible errors by the users are minimized to the maximum extent.
+This project allows users to remotely control a light bulb. The software provides functionality to turn the bulb on/off and generate various light patterns without physical intervention. It simplifies user interaction by automating **COM Port Detection** and minimizing errors.
 
+### ✨ Features
 
+- **Remote Control**: Turn the light bulb on or off via the software.
+- **Light Pattern Creation**: Apply custom light patterns.
+- **Automated COM Port Detection**: Automatically detects the connected COM port and Baud rate for the user.
+- **Error Minimization**: User-friendly design aimed at reducing possible errors during operation.
 
+### 🔧 Technologies Used
 
+- **C#**: Frontend and control logic.
+- **Arduino**: Microcontroller for hardware interfacing.
+- **Serial Communication**: Data transfer between the C# application and Arduino.
+
+### 🛠️ Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/denuwan-yasodhana/ChromaDazzle.git
+    ```
+
+2. Open the project in **Visual Studio** and load the provided Arduino code into the **Arduino IDE**.
+
+3. Connect the Arduino device to your computer.
+
+4. Ensure the required libraries are installed in both C# and Arduino.
+
+### 🚀 Usage
+
+1. Run the C# application.
+2. Select the appropriate **COM port** and **Baud rate** from the dropdown list.
+3. Control the bulb using the **On/Off** buttons or Select a light pattern from the options.
+
+### 🌱 Future Improvements
+
+- Add more complex light pattern options.
+- Implement wireless control using **Wi-Fi** or **Bluetooth**.
+- Enhance the user interface for an improved user experience.
+
+### 📜 Project Demo
 
 https://user-images.githubusercontent.com/110303643/194698091-0647203e-773e-41be-a5e1-ecedbe77d6a4.mp4
+
+### 🤝 Contributing
+
+Feel free to submit **issues** or contribute by submitting a **pull request**.
 
 
 
